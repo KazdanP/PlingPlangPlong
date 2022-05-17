@@ -6,38 +6,30 @@ public class RaindropsTests {
 
   @Test
   void zeroTest() {
-    String zero = "0";
-
     String actualReturned = Raindrops.plingPlangPlong(0);
 
-    assertThat(actualReturned).isEqualTo(zero);
+    assertThat(actualReturned).isEqualTo("0");
   }
 
   @Test
   void negativeNumberTest() {
-    String negative = "-3";
-
     String actualReturned = Raindrops.plingPlangPlong(-3);
 
-    assertThat(actualReturned).isEqualTo(negative);
+    assertThat(actualReturned).isEqualTo("-3");
   }
 
   @Test
   void noFactorsTest() {
-    String noFactors = "8";
-
     String actualReturned = Raindrops.plingPlangPlong(8);
 
-    assertThat(actualReturned).isEqualTo(noFactors);
+    assertThat(actualReturned).isEqualTo("8");
   }
 
   @Test
   void secondNoFactorsTest() {
-    String noFactorsTwo = "88";
+    String actualReturned = Raindrops.plingPlangPlong(34);
 
-    String actualReturned = Raindrops.plingPlangPlong(88);
-
-    assertThat(actualReturned).isEqualTo(noFactorsTwo);
+    assertThat(actualReturned).isEqualTo("34");
   }
 
   @Test

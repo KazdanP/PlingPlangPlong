@@ -15,8 +15,9 @@ public class Raindrops {
       if (factorOfThree) { output += "Pling"; }
       if (factorOfFive) { output += "Plang"; }
       if (factorOfSeven) { output += "Plong"; }
+
+      return output;
     }
 
-    return output;
   }
 }
