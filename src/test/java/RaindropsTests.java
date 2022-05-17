@@ -15,7 +15,7 @@ public class RaindropsTests {
   void negativeNumberTest() {
     String actualReturned = Raindrops.plingPlangPlong(-3);
 
-    assertThat(actualReturned).isEqualTo("-3");
+    assertThat(actualReturned).isEqualTo("Pling");
   }
 
   @Test
