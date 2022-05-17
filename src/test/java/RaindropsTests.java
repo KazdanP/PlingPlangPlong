@@ -42,64 +42,50 @@ public class RaindropsTests {
 
   @Test
   void factorOfThree() {
-    String twelve = "12";
-
     String actualReturned = Raindrops.plingPlangPlong(12);
 
-    assertThat(actualReturned).isEqualTo(twelve);
+    assertThat(actualReturned).isEqualTo("Pling");
   }
 
   @Test
   void factorOfThreeFive() {
-    String fifteen = "15";
-
     String actualReturned = Raindrops.plingPlangPlong(15);
 
-    assertThat(actualReturned).isEqualTo(fifteen);
+    assertThat(actualReturned).isEqualTo("PlingPlang");
   }
 
   @Test
   void factorOfThreeSeven() {
-    String twentyOne = "21";
-
     String actualReturned = Raindrops.plingPlangPlong(21);
 
-    assertThat(actualReturned).isEqualTo(twentyOne);
+    assertThat(actualReturned).isEqualTo("PlingPlong");
   }
 
   @Test
   void factorOfThreeFiveSeven() {
-    String fortyTwo = "42";
+    String actualReturned = Raindrops.plingPlangPlong(105);
 
-    String actualReturned = Raindrops.plingPlangPlong(42);
-
-    assertThat(actualReturned).isEqualTo(fortyTwo);
+    assertThat(actualReturned).isEqualTo("PlingPlangPlong");
   }
 
   @Test
   void factorOfFive() {
-    String twenty = "20";
-
     String actualReturned = Raindrops.plingPlangPlong(20);
 
-    assertThat(actualReturned).isEqualTo(twenty);
+    assertThat(actualReturned).isEqualTo("Plang");
   }
 
   @Test
   void factorOfFiveSeven() {
-    String thirtyFive = "35";
-
     String actualReturned = Raindrops.plingPlangPlong(35);
 
-    assertThat(actualReturned).isEqualTo(thirtyFive);
+    assertThat(actualReturned).isEqualTo("PlangPlong");
   }
 
   @Test
   void factorOfSeven() {
-    String fortyNine = "49";
-
     String actualReturned = Raindrops.plingPlangPlong(49);
 
-    assertThat(actualReturned).isEqualTo(fortyNine);
+    assertThat(actualReturned).isEqualTo("Plong");
   }
 }
