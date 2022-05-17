@@ -1,3 +1,5 @@
+package com.sparta.lh;
+
 public class Raindrops {
 
   public static String plingPlangPlong(int inputNum) {
