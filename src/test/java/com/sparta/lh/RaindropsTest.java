@@ -1,8 +1,10 @@
+package com.sparta.lh;
+
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;
 
-public class RaindropsTests {
+public class RaindropsTest {
 
   @Test
   void zeroTest() {
