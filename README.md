@@ -7,10 +7,10 @@ Let's go on a journey to discover which.
 Write a function that takes in a number (n) and gives out a string, the contents of which depend on the numbers factors
 
 
-- if the number has a factor of 3, output 'Pling'
-- if the number has a factor of 5, output 'Plang'
-- if the number has a factor of 7, output 'Plong'
-- if the number does not have any of the above as a factor simply return the numbers digits
+- If the number has a factor of 3, output 'Pling'
+- If the number has a factor of 5, output 'Plang'
+- If the number has a factor of 7, output 'Plong'
+- If the number does not have any of the above as a factor simply return the numbers digits
 
 #### Examples of Brief
 
